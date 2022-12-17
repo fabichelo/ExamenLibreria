@@ -5,19 +5,7 @@
 package pe.edu.cientifica.test;
 
 import pe.edu.cientifica.config.Conexion;
-import pe.edu.cientifica.daoImp.AutorDaoImp;
-import pe.edu.cientifica.daoImp.EditorialDaoImp;
-import pe.edu.cientifica.daoImp.IdiomaDaoImp;
-import pe.edu.cientifica.daoImp.LibroDaoImp;
-import pe.edu.cientifica.model.Autor;
-import pe.edu.cientifica.model.Editorial;
-import pe.edu.cientifica.model.Idioma;
-import pe.edu.cientifica.model.Libro;
 
-/**
- *
- * @author Alumno
- */
 public class Test {
 //private Gson gson = new Gson();
     /**
@@ -28,7 +16,7 @@ public class Test {
          if(Conexion.getConexion()!=null){
             System.out.println("Conectado");
         }else{
-            System.out.println("Falta conectar");
+            System.out.println("no esta conectado");
         }
        //LibroDaoImp cdi =  new LibroDaoImp();
         //System.out.println(cdi.readAll3()); 

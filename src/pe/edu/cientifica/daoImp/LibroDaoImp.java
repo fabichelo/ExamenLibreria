@@ -68,6 +68,7 @@ public class LibroDaoImp implements Operaciones<Libro> {
     }
 
     @Override
+    
     public int delete(int id) {
         String SQL = "DELETE FROM libro WHERE idlibro=?";
         int x=0;

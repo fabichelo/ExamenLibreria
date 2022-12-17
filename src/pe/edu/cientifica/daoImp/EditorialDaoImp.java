@@ -24,6 +24,7 @@ public class EditorialDaoImp implements Operaciones<Editorial> {
     private PreparedStatement ps;
     private ResultSet rs;
     private Connection cx;
+    
     @Override
     public int create(Editorial t) {
         String SQL = "INSERT INTO editorial (nombre,direccion,email) VALUES(?,?,?)";

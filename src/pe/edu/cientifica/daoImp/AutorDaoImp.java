@@ -25,6 +25,7 @@ public class AutorDaoImp implements Operaciones<Autor>{
     private Connection cx;
 
     @Override
+    
     public int create(Autor t) {
         String SQL = "INSERT INTO autor (nombres, apellidos) VALUES(?,?)";
         int x = 0;

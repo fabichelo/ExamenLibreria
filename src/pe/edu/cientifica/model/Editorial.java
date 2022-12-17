@@ -6,10 +6,7 @@ package pe.edu.cientifica.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-/**
- *
- * @author Alumno
- */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

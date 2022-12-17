@@ -8,14 +8,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- *
- * @author Alumno
- */
+
 public class Conexion {
-    private static final String URL="jdbc:mysql://localhost:3306/bdbiblio";
+    private static final String URL="jdbc:mysql://localhost:3306/bdbiblioteca";
     private static final String USER = "root";
-    private static final String PASS = "euromillon123";
+    private static final String PASS = "fabichelo";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private static Connection cx = null;
     public static Connection getConexion(){

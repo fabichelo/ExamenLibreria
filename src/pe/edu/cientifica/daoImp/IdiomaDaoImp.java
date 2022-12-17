@@ -25,6 +25,7 @@ public class IdiomaDaoImp implements Operaciones<Idioma> {
     private ResultSet rs;
     private Connection cx;
     @Override
+    
     public int create(Idioma t) {
         String SQL = "INSERT INTO idioma (nombre) VALUES(?)";
         int x = 0;
