@@ -78,8 +78,8 @@ public class EditorialForm extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 838, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 520, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -88,7 +88,7 @@ public class EditorialForm extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 281, 860, -1));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 281, 540, -1));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Datos Editorial", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 18))); // NOI18N
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -96,7 +96,7 @@ public class EditorialForm extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel1.setText("Nombre:");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
-        jPanel1.add(txtnombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 800, 32));
+        jPanel1.add(txtnombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 260, 32));
 
         btnguardar.setText("Guardar");
         btnguardar.addActionListener(new java.awt.event.ActionListener() {
@@ -104,7 +104,7 @@ public class EditorialForm extends javax.swing.JFrame {
                 btnguardarActionPerformed(evt);
             }
         });
-        jPanel1.add(btnguardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 201, 112, 32));
+        jPanel1.add(btnguardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, 112, 32));
 
         btneditar.setText("Editar");
         btneditar.addActionListener(new java.awt.event.ActionListener() {
@@ -112,7 +112,7 @@ public class EditorialForm extends javax.swing.JFrame {
                 btneditarActionPerformed(evt);
             }
         });
-        jPanel1.add(btneditar, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 200, 112, 32));
+        jPanel1.add(btneditar, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 100, 112, 32));
 
         btneliminar.setText("Eliminar");
         btneliminar.addActionListener(new java.awt.event.ActionListener() {
@@ -120,8 +120,8 @@ public class EditorialForm extends javax.swing.JFrame {
                 btneliminarActionPerformed(evt);
             }
         });
-        jPanel1.add(btneliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 200, 112, 32));
-        jPanel1.add(txtdireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 108, 800, 30));
+        jPanel1.add(btneliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, 112, 32));
+        jPanel1.add(txtdireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 108, 260, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel2.setText("Direccion:");
@@ -130,7 +130,7 @@ public class EditorialForm extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel3.setText("Email:");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 144, -1, -1));
-        jPanel1.add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 164, 800, 31));
+        jPanel1.add(txtemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 164, 260, 31));
 
         btnidioma.setText("Registrar Idioma");
         btnidioma.addActionListener(new java.awt.event.ActionListener() {
@@ -138,9 +138,9 @@ public class EditorialForm extends javax.swing.JFrame {
                 btnidiomaActionPerformed(evt);
             }
         });
-        jPanel1.add(btnidioma, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 240, 121, -1));
+        jPanel1.add(btnidioma, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 220, 121, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 860, 270));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 540, 270));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
